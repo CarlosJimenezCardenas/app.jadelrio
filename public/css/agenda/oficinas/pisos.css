@@ -1,0 +1,135 @@
+.uno{
+    background-color: #9c59b617;
+}
+
+.dos{
+    background-color: #e2c85660;
+}
+
+.tres{
+    background-color: #4649e963;
+}
+
+.cuatro{
+    background-color: #b9a5f356;
+}
+
+.cinco{
+    background-color: #c7e63e5e;
+}
+
+.seis{
+    background-color: #0929b63f;
+}
+
+.siete{
+    background-color: #d814664f;
+}
+
+.ocho{
+    background-color: #e4a6214d;
+}
+
+.nueve{
+    background-color: #73697441;
+}
+
+.diez{
+    background-color: #60dd2f4d;
+}
+
+.logoNormalHeaderModal{
+    text-align: center!important;
+}
+
+.sinAsignar{
+    color: #000;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: 700;
+    font: bold 15px Georgia, Serif;
+    text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
+}
+
+.apartado{
+    color:red!important;
+    color: #FFF;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: 700;
+    font: bold 15px Georgia, Serif;
+    text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
+    --background-color: #9B59B6;
+}
+
+.selectFont{
+	font-size:1em!important;
+	height:90%;
+}
+
+.texto-vertical {
+    writing-mode: vertical-lr;
+}
+
+.tamanioModal{
+	position: absolute!important;
+    top:0%!important;
+    left:10%;
+    width: 90%!important;
+    height: 100%!important;
+}
+
+.container2
+{
+    position: absolute!important;
+    top:20%!important;
+    left:10%;
+    width: 80%!important;
+    height: 70%!important;
+}
+
+.colorJA{
+    color:#fff;
+    background-color: rgb(175, 11, 44);
+}
+
+.letraJA {
+    font: bold 12px/1 arial;
+    text-transform: uppercase;
+    color: rgb(15, 15, 15);
+  }
+
+.panel-heading{
+    font-size: 1em!important;
+}
+
+.form-control {
+    font-size:10px!important;
+    height: 25px!important;
+}
+
+/***********************************/
+/************TOOLTIP****************/
+
+#main {
+    max-width: 960px;
+    margin: 150px auto;
+    z-index:99999999;
+}
+
+h2 {
+    margin-top: 60px;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+.item {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background: #9B59B6;
+    text-align: center;
+    color: #fff;
+}

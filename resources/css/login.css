@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+body {
+    position: relative;
+    /*background: url('../images/image2.jpg') bottom left no-repeat;
+    background-size: cover;*/
+    overflow: hidden;                
+    overflow-x: hidden;              
+    overflow-y: hidden;
+}
+
+.posicion{
+    position:absolute;
+    top:3%;
+}
+
+.fondoHeader{
+    background-color: #982036;
+    padding: 5px 5px;
+}
+
+.botonEnviar{
+    background-color: #982036;
+    color: #fff;
+    width:50%;
+}
+
+video{
+    width:101%;
+    height: 118%;
+    object-fit: cover;
+    transition: all 1.2s linear;
+}
+
+.container{
+    width:150%;
+    height:100vh;
+    /*background-color:rgba(0, 0, 0, 0.5);*/
+}
+
+.jumbotron {
+    margin-top: 50px;
+    position: relative;
+    padding: 10px;
+}
+
+.jumbotron-content {
+    position: absolute;
+    top: 20%;
+    left:2%;
+    padding: 0px 15px;
+    height: 45%;
+    background-color: #982036;
+    background-color: rgba(152, 32, 54, 0.5);
+    border-radius: 5px;
+    z-index:999999;
+}
+
+.jumbotron-content h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
+}
+
+.jumbotron p {
+    margin-top: 0;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.jumbotron-content label {
+    color: #fff;
+}
+
+.jumbotron .img-credit a, .jumbotron .img-credit a:hover {
+    color: #fff;
+}
+
+.jumbotron .btn {
+    padding: 5px 5%;
+    margin: 0 3%;
+}
+.video{
+    background-image: cover;
+}

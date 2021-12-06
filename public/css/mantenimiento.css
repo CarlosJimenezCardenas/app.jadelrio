@@ -1,0 +1,7 @@
+.fondoMantenimiento {
+  background: url(../images/mantenimiento.jpg) no-repeat center -25px fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

@@ -1,0 +1,54 @@
+.container2
+{
+    position: absolute!important;
+    top:20%!important;
+    left:10%;
+    width: 80%!important;
+    height: 70%!important;
+}
+
+.colorJA{
+    color:#fff;
+    background-color: rgb(175, 11, 44);
+}
+
+.letraJA {
+    font: bold 12px/1 arial;
+    text-transform: uppercase;
+    color: rgb(15, 15, 15);
+  }
+
+.panel-heading{
+    font-size: 1em!important;
+}
+
+.form-control {
+    font-size:10px!important;
+    height: 25px!important;
+}
+
+/***********************************/
+/************TOOLTIP****************/
+
+#main {
+    max-width: 960px;
+    margin: 150px auto;
+    z-index:99999999;
+}
+
+h2 {
+    margin-top: 60px;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+.item {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background: #9B59B6;
+    text-align: center;
+    color: #fff;
+}

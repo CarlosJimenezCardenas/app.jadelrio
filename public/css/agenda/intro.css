@@ -1,0 +1,65 @@
+body, html {
+	margin:0;
+	padding: 0;
+	width:100%;
+	height: 100%;
+	overflow:hidden;
+}
+.foo{
+	z-index: 1000;
+	position:absolute;
+	width: 100%;
+	height: 10%;
+	--background: #B51640 !important;
+}
+.section-top{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position:relative;
+	--background-image: url(../images/image2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation: slide 520s infinite;
+}
+
+.content{
+	z-index: 1010 !important;
+	position:absolute;
+	top:20%;
+	left: 1%;
+	background-size: 150px;
+	background-image:  url(../images/logo4.png);
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 200%;
+}
+
+@keyframes slide{
+	0%{
+		background-image: url(../images/image2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	25%{
+		background-image: url(../images/image4.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	50%{
+		background-image: url(../images/image1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	75%{
+		background-image: url(../images/image3.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
+.letraHeader{
+	font-family: sans-serif;
+	color:#FFF !important;
+	font-size: 17px !important;
+}

@@ -1,0 +1,48 @@
+.fondoTransparente{
+  z-index: 1!important;
+  background-color: #fafafa;
+  opacity: .8;
+  padding:15px 15px 15px 15px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+
+.textoMenuaplicaciones{
+  font-size:1.5em;
+}
+
+.tabla200{
+  position:absolute;
+  width: 100%;
+  top:150px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.tabla400{
+  position:absolute;
+  width: 100%;
+  top:100px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.tabla600{
+  position:absolute;
+  width: 100%;
+  top:80px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.tabla800{
+  position:absolute;
+  width: 100%;
+  top:40px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,23 @@
+.container2
+{
+    position: absolute!important;
+    top:20%!important;
+    left:10%;
+    width: 80%!important;
+    height: 70%!important;
+    z-index:10!important;
+}
+
+.colorJA{
+    color:#fff;
+    background-color: rgb(175, 11, 44);
+}
+
+.panel-heading{
+    font-size: 1.5em!important;
+}
+
+.form-control {
+    font-size:10px!important;
+    height: 25px!important;
+}
